@@ -9,7 +9,7 @@ public class Fibonacci {
     }
 
     private static boolean isFibonacci(int n) {
-        return sqrRoot(5 * n * n - 4) || sqrRoot(5 * n * n + 4);
+        return sqrRoot(5 * n * n - 4) || sqrRoot(5 * n * n);
     }
 
     // private static int fib(int n) {
